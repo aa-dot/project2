@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Sealine</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/contactStyle.css">
+  <link rel="stylesheet" href="css/layout.css">
+</head>
+
+<body>
+  <!-- layout -->
+  <div class="container-fluid" id="topnav">
+    <div class="row">
+      <div class="col-sm-6" id="right">
+        <h5 class="text-muted">Opening Hours : Saturday to Thursday - 8am to 10pm</h5>
+      </div>
+      <div class="col-sm-6" id="left">
+        <ul>
+          <li><a href="#"><i class="fab fa-facebook-f" style="font-size:20px"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram" style="font-size:20px"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter" style="font-size:20px"></i></a></li>
+          <li><a href="#"><i class="fab fa-youtube" style="font-size:20px"></i></a></li>
+          <li><a href="#"><i class="fab fa-pinterest-p" style="font-size:20px"></i></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container secondNavCountainer">
+    <div class="row">
+      <div class="col-sm-5">
+        <a href="home.html"><img src="images/logo/logo.png" style="margin-top: 15px;"></a>
+      </div>
+      <div class="col-sm-7">
+        <ul class="secondNav">
+          <li><a href="#"><i class="fas fa-envelope" style="font-size: 20px;"></i></a>
+            <h4>Email</h4>
+            <p class="text-muted"> info@seeline.com</p>
+          </li>
+          <li><a href="#"><i class="fa fa-phone" style="font-size:20px"></i></a>
+            <h4>Call Now </h4>
+            <p class="text-muted">01090911081</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- navebar -->
+  <nav class="navbar navbar-default thierdNavCountainer ">
+    <div class="container-fluid" id="thierdNav">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar" >
+        <ul class="nav navbar-nav ">
+          <li class="text-uppercase"><a class="active" href="home.html">HOME</a></li>
+          <li class="text-uppercase"><a href="about.html">ABOUT</a></li>
+          <li class="text-uppercase"><a href="hotels.html">Service</a></li>
+          <li class="text-uppercase"><a href="#">Gallery</a></li>
+          <li class="text-uppercase"><a href="#">Team</a></li>
+          <li class="text-uppercase"><a href="feedbacks.html">Feedback</a></li>
+          <li class="text-uppercase"><a href="#">Blog</a></li>
+          <li class="text-uppercase"><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End layout -->
+
+  <!-- Form contacts -->
+  <div class="container bg-success" id="features">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col-md-6 animate-box">
+          <h1>Get In Touch</h1>
+          <form action="feedbacks.html" method="GET" class="needs-validation">
+            <div class="row form-group">
+              <div class="col-md-12">
+                <label class="sr-only" for="name">Name</label>
+                <input type="text" id="validationCustom01" class="form-control" name="userName" placeholder="Your Name" required>
+                
+              </div>
+            </div>
+            <div class="row form-group">
+              <div class="col-md-12">
+                <label class="sr-only" for="email">Email</label>
+                <input type="text" id="validationCustom02" class="form-control" name="mail" placeholder="Your email address"
+                  required>
+              </div>
+            </div>
+            <div class="row form-group">
+              <div class="col-md-12">
+                <label class="sr-only" for="subject">Subject</label>
+                <input type="text" id="subject" class="form-control" name="subject"
+                  placeholder="Your subject of this message">
+              </div>
+            </div>
+            <div class="row form-group">
+              <div class="col-md-12">
+                <label class="sr-only" for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10" class="form-control"
+                  placeholder="Write us something" required></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="submit" value="Send Message" class="btn contactBtn">
+            </div>
+          </form>
+        </div>
+        <div class="col-md-5 col-md-push-1">
+          <div class="section-title">
+            <h1 class="text-uppercase">Contact Information</h1><br><br>
+          </div>
+          <div class="text">
+            <ul style="font-size: large;">
+              <li style="list-style-type: none;"><i class="fas fa-map-marker-alt"></i> 198 West 21th
+                Street, Suite 721 El-minia , Egypt &nbsp; &nbsp; NY 10016</li>
+              <br><br>
+              <li style="list-style-type: none;"><i class="fas fa-phone"></i> +1235 2355 98</li>
+              <br><br>
+              <li style="list-style-type: none;"><i class="fas fa-envelope"></i> info@yoursite.com</li>
+              <br><br>
+              <li style="list-style-type: none;"><i class="fas fa-globe-americas"></i> FreeHTML5.com</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- contact information -->
+  <div class="container">
+    <div class="row" id="info">
+      <div class="col-sm-4" id="contacts">
+        <i class="fa fa-phone"></i>
+        <h3>Calling Our Company</h3>
+        <h3>1-800-700-6200</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="col-sm-4" id="SERVICE">
+        <i class="fab fa-servicestack"></i>
+        <h3>24 HOUR SERVICE</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore dignissimos officia dicta suscipit vel
+          eum</p>
+        <button class="btn btn-default">Read More</button>
+      </div>
+      <div class="col-sm-4" id="WORKING">
+        <i class="far fa-clock"></i>
+        <h3>WORKING HOURS</h3><br>
+        <table class="table">
+          <tr>
+            <td>Sat - FRI -</td>
+            <td>8:00 - 17:00</td>
+          </tr>
+          <tr>
+            <td>MON - FRI -</td>
+            <td>8:00 - 17:00</td>
+          </tr>
+          <tr>
+            <td>Tues - FRI -</td>
+
+            <td>8:00 - 17:00</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- travelling section -->
+  <div class="container-fluid bg-success" id="features">
+    <div class="row">
+      <div class="col-sm-12" id="test">
+        <h1 style="font-weight:700;"> Best Features<span style="font-weight:200;"> of Our Travels</span> </h1>
+        <p class="text-muted"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam magni in at debitis </p>
+        <p class="text-muted"> nam error officia vero tempora alias?</p>
+        <p class="text-muted">Sunt?</p>
+      </div>
+    </div>
+    <div class="features">
+      <div class="row">
+        <div class="col-sm-6 BestFeatures" id="ORTHOPEDICS">
+          <img src="images/resource/1.png" style="width:10%" />
+          <h3>Camping</h3>
+          <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ducimus
+            veniam illo quibusdam pariatur ex sunt, est aspernatur at
+            debitis eius vitae vel nostrum dolorem labore autem corrupti odit mollitia?</p>
+        </div>
+        <div class="col-sm-6 BestFeatures">
+          <img src="images/resource/2.png" style="width:10%" />
+          <h3>travelling</h3>
+          <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ducimus veniam
+            illo quibusdam pariatur ex sunt, est aspernatur at debitis
+            eius vitae vel nostrum dolorem labore autem corrupti odit mollitia?</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 BestFeatures">
+          <img src="images/resource/3.png" style="width:10%" />
+          <h3>Best History</h3>
+          <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ducimus veniam
+            illo quibusdam pariatur ex sunt, est aspernatur at debitis
+            eius vitae vel nostrum dolorem labore autem corrupti odit mollitia?</p>
+        </div>
+        <div class="col-sm-6 BestFeatures">
+          <img src="images/resource/4.png" style="width:10%" />
+          <h3>Best Leaders</h3>
+          <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ducimus veniam
+            illo quibusdam pariatur ex sunt, est aspernatur at debitis
+            eius vitae vel nostrum dolorem labore autem corrupti odit mollitia?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- travelling cast -->
+  <div class="outer-box clearfix">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Nav tabs -->
+          <div class="tabs">
+            <h2>JOIN OUR COMMING TRIPS</h2>
+            <br>
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" onclick="change(1)" class="active">
+                <a href="#dormitory" style="background-color:#48bdc5;border:1px  #48bdc5" id="1"
+                  data-toggle="tab">DESTINATION</a>
+              </li>
+              <li role="presentation" onclick="change(2)">
+                <a href="#orthopedic" id="2" data-toggle="tab">HOTELS</a>
+              </li>
+              <li role="presentation" onclick="change(3)">
+                <a href="#sonogram" id="3" data-toggle="tab">GET IN TOUCH</a>
+              </li>
+              <li role="presentation" onclick="change(4)">
+                <a href="#x-ray" id="4" data-toggle="tab">Planing Trip</a>
+              </li>
+              <li role="presentation" onclick="change(5)">
+                <a href="#diagnostic" id="5" data-toggle="tab">Travelling</a>
+              </li>
+            </ul>
+          </div>
+          <!--Start single tab content-->
+          <div class="tab-content">
+            <div class="service-box tab-pane fade in active row" id="dormitory">
+              <div class="col-md-6">
+                <img class="img-responsive" src="images/services/1.jpg" alt="service-image">
+              </div>
+              <div class="col-md-6">
+                <div class="contents">
+                  <div class="section-title">
+                    <h1 class="text-uppercase">DESTINATION</h1><br><br>
+                  </div>
+                  <div class="text">
+                    <p class="text-muted">TDignissimos asperiores vitae velit veniam totam fuga molestias accusamus
+                      alias autem provident. Odit ab aliquam dolor eius..</p>
+                    <p class="text-muted">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias
+                      autem provident. Odit ab aliquam dolor eius.</p>
+                  </div>
+                  <ul class="content-list text-muted" style="line-height: 26px;">
+                    <li>
+                      <i class="fa fa-dot-circle-o"></i>Whitening is among the most popular travel</li>
+                    <li>
+                      <i class="fa fa-dot-circle-o"></i>Be part of our team</li>
+                    <li>
+                      <i class="fa fa-dot-circle-o"></i>Join our tRIPS</li>
+                  </ul>
+                  <a href="#" class="btn btn-style-one">Read more</a>
+                </div>
+              </div>
+            </div>
+            <!--End single tab content-->
+            <!--Start single tab content-->
+            <div class="service-box tab-pane fade in" id="orthopedic">
+              <div class="col-md-6">
+                <img class="img-responsive" src="images/services/2.jpg" alt="service-image">
+              </div>
+              <div class="col-md-6">
+                <div class="contents">
+                  <div class="section-title">
+                    <h1 class="text-uppercase">HOTELS</h1><br><br>
+                  </div>
+                  <div class="text">
+                    <p class="text-muted">TDignissimos asperiores vitae velit veniam totam fuga molestias accusamus
+                      alias autem provident. Odit ab aliquam dolor eius..</p>
+                    <p class="text-muted">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias
+                      autem provident. Odit ab aliquam dolor eius.</p>
+                  </div>
+                  <ul class="content-list text-muted" style="line-height: 26px;">
+                    <li>
+                      <i class="fa fa-dot-circle-o"></i>Whitening is among the most popular travel</li>
+                    <li>
+                      <i class="fa fa-dot-circle-o"></i>Be part of our team</li>
+                    <li>
+                      <i class="fa fa-dot-circle-o"></i>Join our tRIPS</li>
+                  </ul>
+                  <a href="#" class="btn btn-style-one">Read more</a>
+                </div>
+              </div>
+            </div>
+            <!--End single tab content-->
+            <!--Start single tab content-->
+            <div class="service-box tab-pane fade in" id="sonogram">
+              <div class="col-md-6">
+                <img class="img-responsive" src="images/services/3.jpg" alt="service-image">
+              </div>
+              <div class="col-md-6">
+                <div class="contents">
+                  <div class="section-title">
+                    <h1 class="text-uppercase">Keep In Touch</h1><br><br>
+                  </div>
+                  <div class="text">
+                    <p class="text-muted">TDignissimos asperiores vitae velit veniam totam fuga molestias accusamus
+                      alias autem provident. Odit ab aliquam dolor eius..</p>
+                    <p class="text-muted">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias
+                      autem provident. Odit ab aliquam dolor eius.</p>
+                  </div>
+                  <ul class="content-list text-muted" style="line-height: 26px;">
+                    <li>
+                      <i class="fa fa-dot-circle-o"></i>Whitening is among the most popular travel</li>
+                    <li>
+                      <i class="fa fa-dot-circle-o"></i>Be part of our team</li>
+                    <li>
+                      <i class="fa fa-dot-circle-o"></i>Join our tRIPS</li>
+                  </ul>
+                  <a href="#" class="btn btn-style-one">Read more</a>
+                </div>
+              </div>
+            </div>
+            <!--End single tab content-->
+            <!--Start single tab content-->
+            <div class="service-box tab-pane fade in" id="x-ray">
+              <div class="col-md-6">
+                <img class="img-responsive" src="images/services/4.jpg" alt="service-image">
+              </div>
+              <div class="col-md-6">
+                <div class="contents">
+                  <div class="section-title">
+                    <h1 class="text-uppercase">Planning tRIPS</h1><br><br>
+                  </div>
+                  <div class="text">
+                    <p class="text-muted">TDignissimos asperiores vitae velit veniam totam fuga molestias accusamus
+                      alias autem provident. Odit ab aliquam dolor eius..</p>
+                    <p class="text-muted">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias
+                      autem provident. Odit ab aliquam dolor eius.</p>
+                  </div>
+                  <ul class="content-list text-muted" style="line-height: 26px;">
+                    <li>
+                      <i class="fa fa-dot-circle-o"></i>Whitening is among the most popular travel</li>
+                    <li>
+                      <i class="fa fa-dot-circle-o"></i>Be part of our team</li>
+                    <li>
+                      <i class="fa fa-dot-circle-o"></i>Join our tRIPS</li>
+                  </ul>
+                  <a href="#" class="btn btn-style-one">Read more</a>
+                </div>
+              </div>
+            </div>
+            <!--End single tab content-->
+            <!--Start single tab content-->
+            <div class="service-box tab-pane fade in" id="diagnostic">
+              <div class="col-md-6">
+                <img class="img-responsive" src="images/services/5.jpg" alt="service-image">
+              </div>
+              <div class="col-md-6">
+                <div class="contents">
+                  <div class="section-title">
+                    <h1 class="text-uppercase">Travelling</h1><br><br>
+                  </div>
+                  <div class="text">
+                    <p class="text-muted">TDignissimos asperiores vitae velit veniam totam fuga molestias accusamus
+                      alias autem provident. Odit ab aliquam dolor eius..</p>
+                    <p class="text-muted">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias
+                      autem provident. Odit ab aliquam dolor eius.</p>
+                  </div>
+                  <ul class="content-list text-muted" style="line-height: 26px;">
+                    <li>
+                      <i class="fa fa-dot-circle-o"></i>Whitening is among the most popular travel</li>
+                    <li>
+                      <i class="fa fa-dot-circle-o"></i>Be part of our team</li>
+                    <li>
+                      <i class="fa fa-dot-circle-o"></i>Join our tRIPS</li>
+                  </ul>
+                  <a href="#" class="btn btn-style-one">Read more</a>
+                </div>
+              </div>
+            </div>
+            <!--End single tab content-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <br>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <article class="Company">
+            <a href="index.html"><img src="images/logo/logo.png" style="width:30%;color:white;" /></a>
+            <br><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, temporibus?</p>
+            <p> <i class="fa fa-map-marker"></i> ITI minia Branch</p>
+            <p><i class="fas fa-envelope"></i> ahmed.yousseef.7@gmail.com</p>
+            <p><i class="fa fa-phone"></i> (002) +01090 911081</p>
+          </article>
+        </div>
+        <div class="col-sm-3">
+          <article class="about">
+            <h3>SERVICES</h3>
+            <ul>
+              <li>Booking</li>
+              <li>Travelling</li>
+              <li>Enjoing</li>
+              <li>Funny Times</li>
+              <li>visa card</li>
+            </ul>
+          </article>
+        </div>
+        <div class="col-sm-3">
+          <article>
+            <h3 class="pulse infinite">Follow Us</h3>
+            <ul class="contacts">
+              <li><a href="#"><i class="fab fa-facebook-f" style="font-size:20px"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram" style="font-size:20px"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter" style="font-size:20px"></i></a></li>
+              <li><a href="#"><i class="fab fa-youtube" style="font-size:20px"></i></a></li>
+              <li><a href="#"><i class="fab fa-pinterest-p" style="font-size:20px"></i></i></a></li>
+            </ul>
+          </article>
+        </div>
+        <div class="col-sm-3">
+          <article class="fadeInRightBig">
+            <h3 class="wow pulse infinite">Developers</h3 class="wow pulse infinite">
+            <ul class="developer">
+              <li>Ahmad Youssef : &nbsp;
+                <a class="button social" href="#" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>a'isha : &nbsp;
+                <a class="button social" href="#" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>George Habib : &nbsp;
+                <a class="button social" href="#" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li id="validate">
+                <span><b><u>VALIDATE OUT TEAM</b></u></span>
+                <span>
+                  <div id="validationStars">
+                    <img src="empty_star.png" id="img1" onmouseover="fillStarInMouseOver(1)"
+                      onmouseout="fillStarOutMouseOut()" onclick="finalValidationStarMouseClick(1)" alt="">
+                    <img src="empty_star.png" id="img2" onmouseover="fillStarInMouseOver(2)"
+                      onmouseout="fillStarOutMouseOut()" onclick="finalValidationStarMouseClick(2)" alt="">
+                    <img src="empty_star.png" id="img3" onmouseover="fillStarInMouseOver(3)"
+                      onmouseout="fillStarOutMouseOut()" onclick="finalValidationStarMouseClick(3)" alt="">
+                    <img src="empty_star.png" id="img4" onmouseover="fillStarInMouseOver(4)"
+                      onmouseout="fillStarOutMouseOut()" onclick="finalValidationStarMouseClick(4)" alt="">
+                    <img src="empty_star.png" id="img5" onmouseover="fillStarInMouseOver(5)"
+                      onmouseout="fillStarOutMouseOut()" onclick="finalValidationStarMouseClick(5)" alt="">
+                  </div>
+                </span>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </div>
+    <section class="footer-below">
+      Copyright &copy;
+      <script>
+        document.write(new Date().getFullYear())
+      </script> ITI Minia Branch.
+    </section>
+  </footer>
+  <script src="js/contactScript.js"></script>
+  <script src="js/validationStars.js"></script>
+</body>
+
+</html>

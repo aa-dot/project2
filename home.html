@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>home page</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/homeStyle.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!-- bootstrap version4  -->
+  <!-- Latest compiled and minified CSS -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontrm-awesome/4.7.0/css/font-awesome.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+       -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- Top Informations -->
+    <div class="container-fluid" id="topnav">
+      <div class="row">
+        <div class="col-sm-6" id="right">
+          <h5 class="text-muted">Opening Hours : Saturday to Thursday - 8 am to 10 pm</h5>
+        </div>
+        <div class="col-sm-6" id="left">
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook-f" style="font-size:20px"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram" style="font-size:20px"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter" style="font-size:20px"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube" style="font-size:20px"></i></a></li>
+            <li><a href="#"><i class="fab fa-pinterest-p" style="font-size:20px"></i></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container secondNavCountainer">
+      <div class="row row1">
+        <div class="col-sm-5">
+          <a href="home.html"><img src="images/logo/logo.png" style="margin-top: 15px;width: auto;"></a>
+        </div>
+        <div class="col-sm-7">
+          <ul class="secondNav">
+            <li><a href="#"><i class="fas fa-envelope" style="font-size: 20px;"></i></a>
+              <h4>Email</h4>
+              <p class="text-muted"> info@seeline.com</p>
+            </li>
+            <li><a href="#"><i class="fa fa-phone" style="font-size:20px"></i></a>
+              <h4>Call Now </h4>
+              <p class="text-muted">01090911081</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- navebar -->
+    <nav class="navbar navbar-default thierdNavCountainer">
+      <div class="container-fluid" id="thierdNav">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="text-uppercase"><a class="active" href="home.html">HOME</a></li>
+            <li class="text-uppercase"><a href="about.html">ABOUT</a></li>
+            <li class="text-uppercase"><a href="hotels.html">Service</a></li>
+            <li class="text-uppercase"><a href="#">Gallery</a></li>
+            <li class="text-uppercase"><a href="#">Team</a></li>
+            <li class="text-uppercase"><a href="feedbacks.html">Feedback</a></li>
+            <li class="text-uppercase"><a href="#">Blog</a></li>
+            <li class="text-uppercase"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- slider -->
+    <div class="container-fluid">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/slider/slider1.jpg" alt="Los Angeles" style="width:100% ;height: 550px;">
+            <div class="carousel-caption" id="caption1">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h1 style="font-size: 3em;">Our Best travels</h1>
+                  <p style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sunt animi
+                    sequi ratione quod at earum. </p>
+                  <p style="font-size: 17px;"> Quis quos officiis numquam!</p>
+                  <br>
+                  <button class="btn text-uppercase bookBtn">EXPLORE</button>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/slider/slider2.jpg" alt="Chicago" style="width:100%;height: 550px;">
+            <div class="carousel-caption" id="caption2">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h1 style="font-size: 3em;">We Care About <br>your funny times</h1>
+                  <p style="font-size: 17;">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                  <br>
+                  <button class="btn text-uppercase bookBtn" style="font-size: 100%;">join travels</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/slider/slider3.jpg" alt="New york" style="width:100%;height: 550px;">
+            <div class="carousel-caption" id="caption3">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h1 style="font-size: 3em;">Best Services</h1>
+                  <p style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae deserunt,
+                    <br>
+                    eius pariatur minus itaque nostrum.
+                  </p>
+                  <button class="btn text-uppercase bookBtn">Join now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <!-- End Carousel Area  -->
+
+    <!-- Start Destinatin Area -->
+    <section class="container wow bounceIn">
+      <div class="row ">
+        <div class="text-center head">
+          <h2 class="font-weight-bold">Popular Destination</h2>
+          <p>Suffered alteration in some form,
+            by injected humour or good day randomised.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4  col-md-4  col-sm-4 head wow zoomInUp " onclick="show()">
+          <img src="images/home/im1 (1).png" class="image">
+          <div class="middle">
+            <span class="text">Italy</span>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4  head wow zoomInUp">
+          <img src="images/home/im1 (2).png" class="image">
+          <div class="middle">
+            <span class="text" data-toggle="collapse" data-target="#demo1">Indonesia</span>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4  head wow zoomInUp">
+          <img src="images/home/im1 (4).png" class="image">
+          <div class="middle">
+            <div class="text">Maldives</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4  col-sm-4  head wow zoomInUp">
+          <img src="images/home/im1 (3).png" class="image">
+          <div class="middle">
+            <span class="text">Brazil</span>
+          </div>
+        </div>
+        <div class="col-lg-4  col-sm-4  head wow zoomInUp">
+          <img src="images/home/im1 (5).png" class="image">
+          <div class="middle">
+            <span class="text">Nepal</span>
+          </div>
+        </div>
+        <div class="col-lg-4  col-sm-4 head wow zoomInUp">
+          <img src="images/home/im1 (6).png" class="image">
+          <div class="middle">
+            <span class="text">America</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Start Services -->
+    <section class="container">
+      <div class="row ">
+        <div class="text-center head">
+          <h2 class="font-weight-bold">Services</h2>
+        </div>
+      </div>
+
+      <div class="row head">
+        <div class="col-md-4 col-lg-4 col-sm-12">
+          <div style="border-radius: 20px;">
+            <div class="text-center ">
+              <i class='fas fa-plane-departure' style='font-size:40px;color:lightsteelblue'></i>
+              <h3 class="font-weight-bold">Air Tickets</h3>
+              <p>Our agency provides varied tours including tailored summer tours for clients who are searching for an
+                exclusive and memorable vacation.
+                behind the word mountains, far from the countries Vokalia.There are many variations of passages of Lorem
+                Ipsum available.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-sm-12">
+          <div style="border-radius: 20px;">
+            <div class="text-center">
+              <i class="fas fa-umbrella-beach" style='font-size:40px;color:lightsteelblue'> </i>
+              <h3 class="font-weight-bold">Voyages & Cruises</h3>
+              <p>Our agency provides varied tours including tailored summer tours for clients who are searching for an
+                exclusive and memorable vacation.
+                behind the word mountains, far from the countries Vokalia.There are many variations of passages of Lorem
+                Ipsum available.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-4 col-lg-4 col-sm-12">
+          <div style="border-radius: 20px;">
+            <div class="text-center ">
+              <i class="	fas fa-hotel" style='font-size:40px;color:lightsteelblue'> </i>
+              <h3 class="font-weight-bold">Tailored Summer Tours</h3>
+              <p>Our agency provides varied tours including tailored summer tours for clients who are searching for an
+                exclusive and memorable vacation.
+                behind the word mountains, far from the countries Vokalia.There are many variations of passages of Lorem
+                Ipsum available.
+              </p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- End Services -->
+
+    <!-- Our places -->
+
+    <section class="container wow bounceInUp">
+      <div class="row head">
+        <div class="text-center ">
+          <h2 class="font-weight-bold">Our Places</h2>
+        </div>
+      </div>
+      <div class="row" id="placesSection">
+        <!-- mdal -->
+        <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header" style="background-color: darkturquoise;">
+                <h4 class="modal-title text-center">Book Your Trip</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <form onsubmit="showAlert()">
+                  <div class="row form-group">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                      <label for="fullname">Your Name</label>
+                      <input type="text" id="fullname" class="form-control" placeholder="Your Name" required>
+                    </div>
+                  </div>
+                  <div class="row form-group">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                      <label for="activities">Activities</label>
+                      <select name="#" id="activities" class="form-control" required>
+                        <option value="playing">playing</option>
+                        <option value="Hiking">Hiking</option>
+                        <option value="Caving">Caving</option>
+                        <option value="Swimming">Swimming</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row form-group">
+                    <div class="col-md-2"></div>
+                  </div>
+                  <div class="row form-group">
+                    <div class="col-md-2"></div>
+
+                    <div class="col-md-8">
+                      <label for="date-start">Date Travel</label>
+                      <input type="date" id="date-start" class="form-control" required>
+                    </div>
+                  </div>
+                  <div class="row form-group">
+                    <div class="col-md-2"></div>
+
+                    <div class="col-md-8">
+                      <input type="submit" class="btn btn-success btn-block btn-lg"
+                        onclick="myFunction()" value="Book" style="font-size: large;">
+                    </div>
+
+                  </div>
+                  <p id="msg-error" style="display: none;color: red;"> Enter data</p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-sm-4 head">
+          <div style="background-color:ghostwhite;border-radius: 20px;">
+            <div class="text-center ">
+              <div class="con" id="place1">
+                <img src="images/home/place (4).png">
+                <div class="text-box">$150</div>
+              </div>
+              <h3 class=" font-weight-bold text-info">New York, USA</h3>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia.There are many variations of
+                passages of Lorem Ipsum available.</p>
+              <span>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span href="#" style="color: black;text-decoration: none;">(20 Review)</span>
+              </span>
+              <br><br>
+              <span class="btn btn-info" id="butt" data-toggle="modal" data-target="#myModal">Schedule a Trip</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4  col-sm-4 head">
+          <div style="background-color:ghostwhite;border-radius: 20px;">
+            <div class="text-center ">
+              <div class="con">
+                <img src="images/home/place (2).png">
+                <div class="text-box">$150</div>
+              </div>
+              <h3 class=" font-weight-bold text-info">Seoul, South Korea</h3></a>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia.There are many variations of
+                passages of Lorem Ipsum available.</p>
+              <span>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span href="#" style="color: black;text-decoration: none;">(20 Review)</span>
+              </span>
+              <br><br>
+              <p><span class="btn btn-info" data-toggle="modal" data-target="#myModal">Schedule a Trip</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4  col-sm-4 head">
+          <div style="background-color:ghostwhite;border-radius: 20px;">
+            <div class="text-center ">
+              <div class="con">
+                <img src="images/home/place (3).png">
+                <div class="text-box">$150</div>
+              </div>
+              <h3 class=" font-weight-bold text-info">Paris, France</h3></a>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia.There are many variations of
+                passages of Lorem Ipsum available.</p>
+              <span>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span href="#" style="color: black;text-decoration: none;">(20 Review)</span>
+              </span>
+              <br><br>
+              <p><span class="btn btn-info" data-toggle="modal" data-target="#myModal">Schedule a Trip</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center head">
+        <button type="button" onclick="showplace()" ondblclick="hideplace()" class="btn btn-info">MorePlaces</button>
+      </div>
+    </section>
+
+
+
+    <!-- End places -->
+
+
+    <!-- our success -->
+    <section class="container" style="margin-bottom: 100px;">
+      <div class="row success">
+        <div class="text-center head">
+          <h2 class="font-weight-bold">Our Success Rates</h2>
+        </div>
+      </div>
+      <div class="row head">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
+          <div class="employees">
+            <h2 class="counter-count font-weight-bold text-info">879</h2>
+            <h3 class="employee-p head">DESTINATION</h3>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
+          <div class="customer">
+            <h2 class="counter-count font-weight-bold text-info">954</h2>
+            <h3 class="customer-p head font-weight-bold">HOTELS</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
+          <div class="design">
+            <h2 class="counter-count font-weight-bold text-info">1050</h2>
+            <h3 class="design-p head font-weight-bold">TRAVELERS</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
+          <div class="order">
+            <h2 class="counter-count font-weight-bold text-info">652</h2>
+            <h3 class="order-p font-weight-bold">HAPPY CUSTOMER</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <article class="Company">
+              <a href="index.html"><img src="images/logo/logo.png" style="width:30%;color:white;" /></a>
+              <br><br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, temporibus?</p>
+              <p> <i class="fa fa-map-marker"></i> ITI minia Branch</p>
+              <p><i class="fas fa-envelope"></i> ahmed.yousseef.7@gmail.com</p>
+              <p><i class="fa fa-phone"></i> (002) +01090 911081</p>
+            </article>
+          </div>
+          <div class="col-sm-3">
+            <article class="about">
+              <h3>SERVICES</h3>
+              <ul>
+                <li>Booking</li>
+                <li>Travelling</li>
+                <li>Enjoing</li>
+                <li>Funny Times</li>
+                <li>visa card</li>
+              </ul>
+            </article>
+          </div>
+          <div class="col-sm-3">
+            <article>
+              <h3 class="pulse infinite">Follow Us</h3>
+              <ul class="contacts">
+                <li><a href="#"><i class="fab fa-facebook-f" style="font-size:20px"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram" style="font-size:20px"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter" style="font-size:20px"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube" style="font-size:20px"></i></a></li>
+                <li><a href="#"><i class="fab fa-pinterest-p" style="font-size:20px"></i></i></a></li>
+              </ul>
+            </article>
+          </div>
+          <div class="col-sm-3">
+            <article class="fadeInRightBig">
+              <h3 class="wow pulse infinite">Developers</h3 class="wow pulse infinite">
+              <ul class="developer">
+                <li>Ahmad Youssef : &nbsp;
+                  <a class="button social" href="#" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li>a'isha : &nbsp;
+                  <a class="button social" href="#" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li>George Habib : &nbsp;
+                  <a class="button social" href="#" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li id="validate">
+                  <span><b><u>VALIDATE OUT TEAM</b></u></span>
+                  <span>
+                    <div id="validationStars">
+                      <img src="empty_star.png" id="img1" onmouseover="fillStarInMouseOver(1)"
+                        onmouseout="fillStarOutMouseOut()" onclick="finalValidationStarMouseClick(1)" alt="">
+                      <img src="empty_star.png" id="img2" onmouseover="fillStarInMouseOver(2)"
+                        onmouseout="fillStarOutMouseOut()" onclick="finalValidationStarMouseClick(2)" alt="">
+                      <img src="empty_star.png" id="img3" onmouseover="fillStarInMouseOver(3)"
+                        onmouseout="fillStarOutMouseOut()" onclick="finalValidationStarMouseClick(3)" alt="">
+                      <img src="empty_star.png" id="img4" onmouseover="fillStarInMouseOver(4)"
+                        onmouseout="fillStarOutMouseOut()" onclick="finalValidationStarMouseClick(4)" alt="">
+                      <img src="empty_star.png" id="img5" onmouseover="fillStarInMouseOver(5)"
+                        onmouseout="fillStarOutMouseOut()" onclick="finalValidationStarMouseClick(5)" alt="">
+                    </div>
+                  </span>
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+      <section class="footer-below">
+        Copyright &copy;
+        <script>
+          document.write(new Date().getFullYear())
+        </script> ITI Minia Branch.
+      </section>
+    </footer>
+
+    <script src="js/validationStars.js"></script>
+    <script src="js/homeScript.js"></script>
+
+</body>
+
+</html>

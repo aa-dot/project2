@@ -1,0 +1,95 @@
+ .head{
+  margin-top:6%;
+  position: relative;
+ }
+ #myCarousel {
+   height: 550px;
+ }
+
+.text-box{
+  
+    position: absolute;
+    bottom: 3%;
+    left: 2%;
+    background-color: black;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+ 
+ }
+ .con{
+   position: relative;
+ }
+a{
+ color: cadetblue;
+}
+.row1 img{
+    width: 100%;
+    position: relative;
+}
+.fa-star{
+  color:darkkhaki;
+}
+.post-content {
+  top:50%;
+  left:45%;
+  position: absolute;
+}
+
+.thumbnail{
+  position:relative;
+
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  
+  .head:hover .image {
+    opacity: 0.3;
+  }
+  
+  .head:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    text-decoration: none;
+  }
+
+#place{
+  display: none;
+}
+.sliderHeader{
+  background-color: white;
+  color: #09c;
+}
+
+.bookForm label{
+  color: #09c;
+}
+.bookBtn{
+  color: white;
+  background-color: #09c;
+}

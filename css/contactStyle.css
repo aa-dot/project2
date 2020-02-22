@@ -1,0 +1,114 @@
+#info {
+  color: white; }
+  #info #contacts {
+    background-color: #48bdc5;
+    letter-spacing: 1px;
+    height: 260px;
+    padding-left: 3%; }
+    #info #contacts i {
+      font-size: 2em;
+      margin-top: 5%;
+      margin-left: 3%; }
+  #info #SERVICE {
+    background-color: #5bc4cb;
+    letter-spacing: 1px;
+    height: 260px;
+    padding-left: 3%; }
+    #info #SERVICE i {
+      font-size: 2em;
+      margin-top: 5%;
+      margin-left: 3%; }
+    #info #SERVICE button {
+      background-color: #5bc4cb;
+      color: white;
+      border: 1px solid white;
+      widows: 20%; }
+    #info #SERVICE button:hover {
+      background-color: white;
+      color: #5bc4cb;
+      border: 1px solid white; }
+  #info #WORKING {
+    background-color: #6fcbd1;
+    letter-spacing: 1px;
+    height: 260px;
+    padding-left: 3%; }
+    #info #WORKING i {
+      font-size: 2em;
+      margin-top: 5%;
+      margin-left: 3%; }
+
+#features {
+  margin-top: 5%;
+  background-color: #fafafa;
+  margin-bottom: 6%;
+  padding-bottom: 7%; }
+  #features #test {
+    margin-top: 6%;
+    text-align: center; }
+  #features #ORTHOPEDICS {
+    padding-left: 6%; }
+  #features .BestFeatures {
+    padding-left: 6%;
+    margin-top: 5%; }
+
+.tabs .active {
+  color: #fff;
+  background: #48bdc5;
+  border: 2px solid #48bdc5; }
+.tabs ul {
+  margin-left: 20%; }
+  .tabs ul li {
+    border: 2px solid #48bdc5;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    color: black; }
+    .tabs ul li a {
+      margin: 0%; }
+
+.tab-content p {
+  line-height: 26px;
+  font-weight: 600; }
+.tab-content h1 {
+  font-weight: 700;
+  font-size: 32px; }
+.tab-content ul {
+  list-style: none;
+  margin-left: -7%; }
+  .tab-content ul li i {
+    padding-right: 1%; }
+.tab-content a {
+  background-color: #5bc4cb;
+  color: white;
+  border: 1px solid white; }
+.tab-content a:hover {
+  background-color: white;
+  color: #5bc4cb;
+  border: 1px solid #5bc4cb; }
+
+.tabs h2{
+  text-align: center;
+  color: white;
+  background-color: #48bdc5;
+  border-radius: 45%;
+}
+
+.contactBtn{
+  background-color: rgb(69, 212, 212);
+  color: white;
+  font-size: large;
+}
+.contactBtn:hover{
+  background-color: cyan;
+  color: white;
+}
+
+.features{
+  background-color: #6fcbd1;
+  color: white;
+}
+
+.features p{
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+}
